@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        .other-Photo {
+            width: 7.97vw;
+            height: 7vw;
+            margin: .5vw;
+        }
+
+
+        /* .other-photo-container {
+            width: 100%;
+        } */
+
+        .main-photo {
+            width: 100%;
+            height: 25vw;
+            margin: .5vw;
+        }
+
+        .details-container {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+    <header>
+        <nav class="navbar bg-secondary bg-opacity-25">
+            <div class="container-fluid d-flex justify-content-between">
+                <div>
+                    <a class="navbar-brand text-warning" href="#">
+                        <img src="logo.png" alt="Logo" width="30" height="24"
+                            class="d-inline-block align-text-top mx-2">
+                        Car Auctions
+                    </a>
+                </div>
+                <div class="">
+                    <a class="text-warning mx-2 text-decoration-none" href="">Home</a>
+                    <a class="text-warning mx-2 text-decoration-none" href="">About Us</a>
+                    <a class="text-warning mx-2 text-decoration-none" href="">Sign in</a>
+                    <a class="text-warning mx-2 text-decoration-none" href="sign-up.html">Sign up</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container my-5">
+            <div class="details-container">
+                <div class="m-3">
+                    <div><img class="main-photo" src="2015 Mitsubishi Mirage.jpg" alt=""></div>
+                    <div class="mx-1 other-photo-container">
+                        <img class=" other-Photo" src="2016-Honda-HR-V.jpg" alt="">
+                        <img class=" other-Photo" src="2019 Nissan Altima .jpg" alt="">
+                        <img class=" other-Photo" src="GREAT 1987 Mazda RX 7.jpg" alt="">
+                        <img class=" other-Photo" src="Hyundai-i30-2020.jpg" alt="">
+                        <img class=" other-Photo" src="KIA-SONET-2020.jpg" alt="">
+                    </div>
+                </div>
+                <div class="text-white border rounded">
+                    <div class="mx-5">
+                        <p class="bg-secondary opacity-75 text-center py-2 rounded">ID# 00123</p>
+                        <p><b>Make</b> : Toyota</p>
+                        <p><b>Model</b> : 4Runner</p>
+                        <p><b>Interior Color</b> : Black</p>
+                        <p><b>Exterior Color</b> : White</p>
+                        <p><b>Odo meter</b> : 105,132</p>
+                        <p><b>Engine Type</b> : 1.4L 4</p>
+                        <p><b>Cylinders</b> : 4</p>
+                        <p><b>Transmission</b> : Automatic</p>
+                        <p><b>Drive</b> : Front-wheel Automatic</p>
+                        <p><b>Fuel</b> : Gas</p>
+                        <p><b>Keys</b> : Yes</p>
+                        <p><b>Notes</b> : The Car is fully fresh, like almost new, only a little dent in back.</p>
+                    </div>
+                    <div class="bg-secondary rounded m-4">
+                        <div class="m-4">
+                            <h2 class="pt-2">Current Bid: $951</h2>
+                            <div class="d-flex justify-content-between">
+                                <h2>Enter Amount:</h2>
+                                <input class="py-1" type="text" placeholder="$Your amount">
+                            </div>
+                            <div class="text-center"> <button type="button" class="btn btn-warning btn-lg px-5 my-2">Bid
+                                    Now</button>
+                            </div>
+                            <h5 class="text-danger text-center pb-2"><b>Bid end at 12:00am in 10 sep 2022</b></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-secondary bg-opacity-25">
+        <h4 class="text-center text-white pt-4 pb-3 fw-lighter">Follow us on</h4>
+        <div class="text-center text-white fs-4">
+            <i class="bi bi-facebook mx-3"></i>
+            <i class="bi bi-instagram mx-3"></i>
+            <i class="bi bi-twitter mx-3"></i>
+            <i class="bi bi-linkedin mx-3"></i>
+        </div>
+        <div class="text-center mt-3">
+            <small class="text-white">Copyright © 2022 Coopart Inc. All Rights Reserved || <a
+                    class="text-decoration-none text-white" href="https://www.iaai.com/TermsOfUse">Terms of Use </a>
+                ||
+                <a class="text-decoration-none text-white" href="https://www.iaai.com/PrivacyPolicy">Privacy Policy
+                </a></small>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
